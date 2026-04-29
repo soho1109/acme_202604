@@ -58,6 +58,11 @@ body{
   font-size: var(--body--m-plus);
   line-height: var(--base-unit);
  }
+ .text-nav{
+  font-size: var(--nav--item);
+  font-weight: bold;
+  text-transform: uppercase;
+ }
  /* 링크 버튼 스타일 */
  .btn{
   height: 39px;
@@ -72,6 +77,9 @@ body{
   gap: 5px;
   text-transform: uppercase;
  }
+ .btn .material-icons{
+  font-size: 14px;
+}
  .btn-primary{
   background: var(--primary);
   color: var(--secondary);
@@ -139,4 +147,10 @@ body > header{
 	width: 1px;
 	height: 1px;
 	overflow:hidden;
+}
+header nav ul{
+  gap: 10px;
+}
+header nav ul li:first-child{
+  margin-left: 40px;
 }
