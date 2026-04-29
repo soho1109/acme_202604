@@ -118,7 +118,7 @@ form button{
 }
 /* 레이아웃 */
 .container{
-  width: 127px;
+  width: 1272px;
   margin: 0 auto;
 }
 .inner-pd{
@@ -128,4 +128,15 @@ form button{
   padding-top: calc(var(--base-unit) * 3);
 }
 /* 헤더 */
-
+body > header{
+  background: var(--white);
+  padding: var(--base-unit) 0;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+}
+.logo span{
+  position: absolute;
+	clip-path:inset(50%);
+	width: 1px;
+	height: 1px;
+	overflow:hidden;
+}
