@@ -19,7 +19,7 @@
 --hero--title: rgba(58, 153, 216, 1);
 --medium-blue: rgba(67, 156, 207, 1);
 --light-blue: rgba(72, 157, 205, 1);
---cta: rgba(41, 44, 46, 1);
+--c-t-a: rgba(41, 44, 46, 1);
 
 /* Text-size styles */
 --heading--x-l: calc(var(--base-font) * 3.4375);
@@ -55,6 +55,7 @@ body{
   font-size: var(--body--l);
   line-height: calc(var(--base-unit) * 2);
   font-weight: 300;
+  text-align: center;
 }
 .text-body-m{
   font-size: var(--body--m);
@@ -63,6 +64,8 @@ body{
  .text-body-m-plus{
   font-size: var(--body--m-plus);
   line-height: var(--base-unit);
+  text-align: center;
+  color: var(--light--gray);
  }
  .text-nav{
   font-size: var(--nav--item);
@@ -205,4 +208,11 @@ header nav ul li:first-child{
 }
 .slidewrapper button.next{
   right: 0;
+}
+/* cta */
+.cta {
+  background:var(--c-t-a);
+}
+.cta h3 {
+  color: var(--white);
 }
